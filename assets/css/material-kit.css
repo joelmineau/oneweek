@@ -5815,7 +5815,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
   position: relative;
 }
 .header-filter[filter-color="purple"]:after, .header-filter[filter-color="primary"]:after {
-  background: rgba(225, 190, 231, 0.56);
+  background: rgba(0, 0, 0, 0.5);
   /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(60deg, rgba(225, 190, 231, 0.56), rgba(186, 104, 200, 0.95));
   /* For Safari 5.1 to 6.0 */
@@ -5922,7 +5922,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 .features-3 .info {
   max-width: none;
   margin: 0 auto;
-  padding: 10px 0 0px;
+  padding: 0px 0 0px;
 }
 .features-3 .phone-container {
   max-width: 300px;
