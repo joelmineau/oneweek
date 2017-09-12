@@ -3168,7 +3168,7 @@ h5.title2 {
   font-weight: 500;
 }
 .nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 .nav-tabs > li .material-icons {
   margin: -1px 5px 0 0;
@@ -5808,7 +5808,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
   content: "";
 }
 .header-filter::before {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .header-filter .container {
   z-index: 2;
