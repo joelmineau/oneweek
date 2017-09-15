@@ -93,10 +93,8 @@
 								<br/>
 								<!-- Some <br /> tags to push the text to align with the image, you can remove it if you have more text on the right side :-) -->
 
-								<h2 class="title">Group buying for travel</h2>
+								<h2 class="title">Travel buying group</h2>
 								<p>All packages are for 2 people and offered to 200 people over one month.  This allows you to benefit the top activities and accommodations at the best possible price. </p>
-
-
 
 								<div class="info info-horizontal">
 
@@ -236,7 +234,7 @@
 										<div class="col-md-10 col-md-offset-1">
 												<h2 class="title">We'd love to collaborate</h2>
 						<h4 class="description">oneweek is all about collaboration and partnership.  We want to bring the best of every city to people from all around the world. Let us know if you think you can help.</h4>
-												<form class="contact-form">
+												<form class="contact-form" id="gform" method="post" action="https://script.google.com/a/v-q.ca/macros/s/AKfycbxycjSZmSpMxa7mlI9XbMoX1meVB6A2zecBMwtv3OOM2mN7ohUR/exec">
 														<div class="row">
 																<div class="col-md-4">
 									<div class="form-group">
@@ -275,6 +273,11 @@
 																		<button class="btn btn-rose btn-round">
 																			Let's talk
 																		</button>
+
+																		<div style="display:none;" id="thankyou_message">
+																				<h2><em>Thanks</em> for contacting us!
+																					We will get back to you soon!</h2>
+																			</div>
 
 												</form>
 										</div>
@@ -329,6 +332,9 @@
 
 
 </body>
+
+<script data-cfasync="true" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 	<!--   Core JS Files   -->
 	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
